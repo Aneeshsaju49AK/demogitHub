@@ -9,8 +9,10 @@ class ScrrenHomePage extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     return Container(
       color: Colors.red,
-      height:  height/1,
-      width: width/1,
+      //change height
+      height: height / 2,
+      width: width / 1,
+      child: Container(),
     );
   }
 }
